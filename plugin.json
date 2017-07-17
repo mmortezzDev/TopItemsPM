@@ -1,0 +1,10 @@
+{
+
+  "name"            : "TopItemsPM",
+  "description"     : "Plugin to render a list of top items",
+  "namespace"       : "TopItemsPM",
+  "author"          : "tma",
+  "type"            : "template",
+  "serviceProvider" : "TopItemsPM\\Providers\\TopItemsPMServiceProvider"
+
+}
