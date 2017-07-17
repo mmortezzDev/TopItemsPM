@@ -50,7 +50,7 @@ class ContentController extends Controller
             'resultCount' => $resultItems->count(),
             'currentItems' => $items
         );
-
+        $twig->render('TopItemsPM::PageDesign');
         return $twig->render('TopItemsPM::content.TopItems', $templateData);
 
     }
